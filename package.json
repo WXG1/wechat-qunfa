@@ -1,0 +1,19 @@
+{
+  "author": "",
+  "name": "wechat-example",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yizhiren/wechat-example.git"
+  },
+  "dependencies": {
+    "iwechat": "~0.5.1",
+    "express": "~2.5.11",
+    "poorequest": "~0.0.6"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=0.4"
+  }
+}
