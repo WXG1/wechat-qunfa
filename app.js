@@ -84,7 +84,10 @@ wechat.on('text-message', function(msg) {
 
         //console.log(DIY.content(one),one.UserName);callback();
         wechat.sendMsg(DIY.content(one),one.UserName,callback);
-      },function(err){ })
+      },function(err){
+        if(err)console.log(err);
+      
+      })
 
   }
 })
